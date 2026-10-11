@@ -1,0 +1,19 @@
+# Игнорируем весь движок WordPress
+wp-admin/
+wp-includes/
+wp-*.php
+index.php
+license.txt
+readme.html
+xmlrpc.php
+
+# Игнорируем стандартные плагины и темы (оставляем только ваши)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentytwo/
+
+# Игнорируем логи и системные файлы
+*.log
+.htaccess
